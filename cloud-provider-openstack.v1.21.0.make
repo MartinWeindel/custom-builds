@@ -1,4 +1,4 @@
-INPUT_VERSION               := 1.24.2
+INPUT_VERSION               := 1.21.0
 REGISTRY                    ?= eu.gcr.io/gardener-project/test/martinweindel
 REPO_ROOT                   := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 GOVERSION                   := 1.18.5
