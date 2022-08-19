@@ -1,0 +1,10 @@
+REPOSITORY                                                                               TAG                         IMAGE ID       CREATED          SIZE
+eu.gcr.io/gardener-project/test/martinweindel/cinder-csi-plugin-amd64                    v1.24.2-1                   438f90132794   3 minutes ago    228MB
+eu.gcr.io/gardener-project/test/martinweindel/openstack-cloud-controller-manager-amd64   v1.24.2-1                   f87250a83a29   4 minutes ago    55.9MB
+csi-attacher                                                                             latest                      8186819962e2   24 minutes ago   55.5MB
+eu.gcr.io/gardener-project/test/martinweindel/csi-attacher                               v3.5.0-1                    8186819962e2   24 minutes ago   55.5MB
+eu.gcr.io/gardener-project/gardener/extensions/shoot-networking-problemdetector          latest                      34e284a43ac0   23 hours ago     54MB
+eu.gcr.io/gardener-project/gardener/extensions/shoot-networking-problemdetector          v0.6.0-dev                  34e284a43ac0   23 hours ago     54MB
+eu.gcr.io/gardener-project/test/martinweindel/shoot-networking-problemdetector           v0.6.0-dev-220818b          34e284a43ac0   23 hours ago     54MB
+eu.gcr.io/gardener-project/gardener/extensions/provider-openstack                        latest                      15385f044a9d   24 hours ago     61.5MB
+eu.gcr.io/gardener-project/gardener/extensions/provider-openstack                        v1.29.0-dev                 15385f044a9d   24 hours ago     61.5MB
