@@ -1,7 +1,7 @@
 REGISTRY                    := eu.gcr.io/gardener-project/test/martinweindel
 
-%.done: %.make
+markers/%.done: %.make
 	make -f $^ all REGISTRY=$(REGISTRY)
 	docker images | head > $@
 
-all: $(wildcard *.done)
+all: $(wildcard markers/*.done)
