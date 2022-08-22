@@ -3,10 +3,11 @@ include common.mk
 INPUT_VERSION               := 1.24.2
 SOURCE_REPO                 := kubernetes/cloud-provider-openstack
 GOVERSION                   := 1.18.5
-REV                         := v$(INPUT_VERSION)-2
+REV                         := v$(INPUT_VERSION)-3
 IMAGE1_NAME_TAG             := $(REGISTRY)/openstack-cloud-controller-manager-amd64:$(REV)
 IMAGE2_NAME_TAG             := $(REGISTRY)/cinder-csi-plugin-amd64:$(REV)
 ALPINE_VERSION              := 3.16.2
+DEBIAN_VERSION              := bullseye-v1.3.0
 SRC_BASE                    := $(REPO_ROOT)/downloads/cloud-provider-openstack-$(INPUT_VERSION)
 
 .PHONY: download
@@ -16,7 +17,9 @@ download:
 patch:
 	sed -i 's/alpine:3.15.4/alpine:$(ALPINE_VERSION)/' $(SRC_BASE)/cluster/images/openstack-cloud-controller-manager/Dockerfile
 	sed -i 's/alpine:3.15.4/alpine:$(ALPINE_VERSION)/' $(SRC_BASE)/cluster/images/openstack-cloud-controller-manager/Dockerfile.build
-	sed -i 's/alpine:3.15.4/alpine:$(ALPINE_VERSION)/' $(SRC_BASE)/cluster/images/cinder-csi-plugin/Dockerfile
+	sed -i 's|k8s.gcr.io/build-image/debian-base-.*:v2.1.3|registry.k8s.io/build-image/debian-base:$(DEBIAN_VERSION)|' $(SRC_BASE)/cluster/images/cinder-csi-plugin/Dockerfile
+	sed -i 's|k8s.gcr.io/build-image/debian-base-.*:v2.1.3|registry.k8s.io/build-image/debian-base:$(DEBIAN_VERSION)|' $(SRC_BASE)/cluster/images/cinder-csi-plugin/Dockerfile.build
+	
 
 .PHONY: images
 images:
