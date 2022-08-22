@@ -3,11 +3,11 @@ include common.mk
 INPUT_VERSION               := 1.23.3
 SOURCE_REPO                 := kubernetes/cloud-provider-openstack
 GOVERSION                   := 1.18.5
-REV                         := v$(INPUT_VERSION)-3
+REV                         := v$(INPUT_VERSION)-4
 IMAGE1_NAME_TAG             := $(REGISTRY)/openstack-cloud-controller-manager-amd64:$(REV)
 IMAGE2_NAME_TAG             := $(REGISTRY)/cinder-csi-plugin-amd64:$(REV)
 ALPINE_VERSION              := 3.16.2
-DEBIAN_VERSION              := bullseye-v1.3.0
+DEBIAN_VERSION              := bullseye-v1.4.0
 SRC_BASE                    := $(REPO_ROOT)/downloads/cloud-provider-openstack-$(INPUT_VERSION)
 
 .PHONY: download

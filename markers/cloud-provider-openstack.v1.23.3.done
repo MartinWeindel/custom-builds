@@ -1,10 +1,10 @@
 REPOSITORY                                                                               TAG                         IMAGE ID       CREATED              SIZE
-eu.gcr.io/gardener-project/test/martinweindel/cinder-csi-plugin-amd64                    v1.23.3-3                   3ee71d762e48   54 seconds ago       251MB
-eu.gcr.io/gardener-project/test/martinweindel/openstack-cloud-controller-manager-amd64   v1.23.3-3                   575bce7baf8c   About a minute ago   56.2MB
-<none>                                                                                   <none>                      397c76e32f0b   4 minutes ago        251MB
-<none>                                                                                   <none>                      75c2dd607efd   4 minutes ago        56.2MB
-eu.gcr.io/gardener-project/test/martinweindel/cinder-csi-plugin-amd64                    v1.24.2-2                   df46bfea2b3e   2 days ago           228MB
-eu.gcr.io/gardener-project/test/martinweindel/openstack-cloud-controller-manager-amd64   v1.24.2-2                   e85deaf41f8e   2 days ago           55.8MB
-eu.gcr.io/gardener-project/test/martinweindel/cinder-csi-plugin-amd64                    v1.23.3-2                   0f2b93e3346c   2 days ago           227MB
-eu.gcr.io/gardener-project/test/martinweindel/openstack-cloud-controller-manager-amd64   v1.23.3-2                   0de199f44e29   2 days ago           56.2MB
-eu.gcr.io/gardener-project/test/martinweindel/cinder-csi-plugin-amd64                    v1.22.0-2                   bf834d5ec480   2 days ago           213MB
+eu.gcr.io/gardener-project/test/martinweindel/cinder-csi-plugin-amd64                    v1.23.3-4                   ed933ee1963c   59 seconds ago       251MB
+eu.gcr.io/gardener-project/test/martinweindel/openstack-cloud-controller-manager-amd64   v1.23.3-4                   8d5fa2f85156   About a minute ago   56.2MB
+eu.gcr.io/gardener-project/test/martinweindel/cinder-csi-plugin-amd64                    v1.22.0-2                   27b502ba49e6   About an hour ago    237MB
+eu.gcr.io/gardener-project/test/martinweindel/openstack-cloud-controller-manager-amd64   v1.22.0-2                   5b84dd42402e   About an hour ago    54MB
+eu.gcr.io/gardener-project/test/martinweindel/cinder-csi-plugin-amd64                    v1.21.0-2                   fbf5cce77d54   About an hour ago    235MB
+eu.gcr.io/gardener-project/test/martinweindel/openstack-cloud-controller-manager-amd64   v1.21.0-2                   194cdef60d7f   About an hour ago    52.5MB
+eu.gcr.io/gardener-project/test/martinweindel/cinder-csi-plugin-amd64                    v1.24.2-3                   7f51d285a9c8   About an hour ago    252MB
+eu.gcr.io/gardener-project/test/martinweindel/openstack-cloud-controller-manager-amd64   v1.24.2-3                   15b9e1c0d7ba   About an hour ago    55.8MB
+eu.gcr.io/gardener-project/test/martinweindel/cinder-csi-plugin-amd64                    v1.23.3-3                   3ee71d762e48   About an hour ago    251MB
