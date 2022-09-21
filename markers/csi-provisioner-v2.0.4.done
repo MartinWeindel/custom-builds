@@ -1,0 +1,10 @@
+REPOSITORY                                                                               TAG                         IMAGE ID       CREATED          SIZE
+csi-provisioner                                                                          latest                      ec8d64a04f1d   10 minutes ago   48.1MB
+eu.gcr.io/gardener-project/test/martinweindel/csi-provisioner                            v2.0.4-1                    ec8d64a04f1d   10 minutes ago   48.1MB
+eu.gcr.io/gardener-project/test/martinweindel/csi-provisioner                            v3.2.1-1                    b0d9ce159c71   20 minutes ago   59.5MB
+eu.gcr.io/gardener-project/gardener/extensions/admission-aws                             latest                      10ba8880c59a   5 days ago       55.4MB
+eu.gcr.io/gardener-project/gardener/extensions/admission-aws                             v1.38.0-dev                 10ba8880c59a   5 days ago       55.4MB
+eu.gcr.io/gardener-project/gardener/extensions/provider-aws                              latest                      cb2e5bd8c820   5 days ago       79.4MB
+eu.gcr.io/gardener-project/gardener/extensions/provider-aws                              v1.38.0-dev                 cb2e5bd8c820   5 days ago       79.4MB
+eu.gcr.io/gardener-project/test/martinweindel/provider-aws                               v1.38.0-dev-220915a         cb2e5bd8c820   5 days ago       79.4MB
+<none>                                                                                   <none>                      2fe33e576b41   5 days ago       79.4MB
