@@ -2,8 +2,8 @@ include common.mk
 
 INPUT_VERSION               := 3.5.0
 SOURCE_REPO                 := kubernetes-csi/external-attacher
-GOVERSION                   := 1.18.5
-REV                         := v$(INPUT_VERSION)-1
+GOVERSION                   := 1.19.1
+REV                         := v$(INPUT_VERSION)-2
 IMAGE_NAME_TAG              := $(REGISTRY)/csi-attacher:$(REV)
 
 .PHONY: download

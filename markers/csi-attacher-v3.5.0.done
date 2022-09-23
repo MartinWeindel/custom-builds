@@ -1,3 +1,10 @@
-REPOSITORY                                                                               TAG                         IMAGE ID       CREATED          SIZE
-csi-attacher                                                                             latest                      8186819962e2   2 hours ago      55.5MB
-eu.gcr.io/gardener-project/test/martinweindel/csi-attacher                               v3.5.0-1                    8186819962e2   2 hours ago      55.5MB
+REPOSITORY                                                                               TAG                         IMAGE ID       CREATED         SIZE
+csi-attacher                                                                             latest                      2f6c1ca21881   2 minutes ago   56MB
+eu.gcr.io/gardener-project/test/martinweindel/csi-attacher                               v3.5.0-2                    2f6c1ca21881   2 minutes ago   56MB
+eu.gcr.io/gardener-project/gardener/extensions/admission-aws                             latest                      cde067aa656f   26 hours ago    57.2MB
+eu.gcr.io/gardener-project/gardener/extensions/admission-aws                             v1.39.0-dev                 cde067aa656f   26 hours ago    57.2MB
+eu.gcr.io/gardener-project/gardener/extensions/provider-aws                              latest                      85877aa7b418   26 hours ago    84.6MB
+eu.gcr.io/gardener-project/gardener/extensions/provider-aws                              v1.39.0-dev                 85877aa7b418   26 hours ago    84.6MB
+eu.gcr.io/gardener-project/test/martinweindel/provider-aws                               v1.39.0-dev-220922a         85877aa7b418   26 hours ago    84.6MB
+livenessprobe                                                                            latest                      9ebd8e448c48   41 hours ago    18.2MB
+eu.gcr.io/gardener-project/test/martinweindel/livenessprobe                              v2.7.0-1                    9ebd8e448c48   41 hours ago    18.2MB
