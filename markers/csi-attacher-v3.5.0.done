@@ -1,10 +1,10 @@
-REPOSITORY                                                                               TAG                         IMAGE ID       CREATED         SIZE
-csi-attacher                                                                             latest                      2f6c1ca21881   2 minutes ago   56MB
-eu.gcr.io/gardener-project/test/martinweindel/csi-attacher                               v3.5.0-2                    2f6c1ca21881   2 minutes ago   56MB
-eu.gcr.io/gardener-project/gardener/extensions/admission-aws                             latest                      cde067aa656f   26 hours ago    57.2MB
-eu.gcr.io/gardener-project/gardener/extensions/admission-aws                             v1.39.0-dev                 cde067aa656f   26 hours ago    57.2MB
-eu.gcr.io/gardener-project/gardener/extensions/provider-aws                              latest                      85877aa7b418   26 hours ago    84.6MB
-eu.gcr.io/gardener-project/gardener/extensions/provider-aws                              v1.39.0-dev                 85877aa7b418   26 hours ago    84.6MB
-eu.gcr.io/gardener-project/test/martinweindel/provider-aws                               v1.39.0-dev-220922a         85877aa7b418   26 hours ago    84.6MB
-livenessprobe                                                                            latest                      9ebd8e448c48   41 hours ago    18.2MB
-eu.gcr.io/gardener-project/test/martinweindel/livenessprobe                              v2.7.0-1                    9ebd8e448c48   41 hours ago    18.2MB
+REPOSITORY                                                                               TAG                         IMAGE ID       CREATED          SIZE
+csi-attacher                                                                             latest                      3a1aed6c8d76   17 seconds ago   56MB
+eu.gcr.io/gardener-project/test/martinweindel/csi-attacher                               v3.5.0-2                    3a1aed6c8d76   17 seconds ago   56MB
+eu.gcr.io/gardener-project/gardener/vpn-seed-server                                      0.12.0-dev                  acc282801fac   17 hours ago     12.6MB
+eu.gcr.io/gardener-project/test/martinweindel/vpn-seed-server                            0.12.0-dev-221026l          acc282801fac   17 hours ago     12.6MB
+eu.gcr.io/gardener-project/test/martinweindel/vpn-seed-server                            0.12.0-dev-221026k          7ba738a40831   17 hours ago     12.6MB
+<none>                                                                                   <none>                      8b7a34851db3   18 hours ago     12.6MB
+eu.gcr.io/gardener-project/gardener/vpn-shoot-client                                     0.12.0-dev                  b7d951fa2ad9   20 hours ago     12.6MB
+eu.gcr.io/gardener-project/test/martinweindel/vpn-shoot-client                           0.12.0-dev-221026b          b7d951fa2ad9   20 hours ago     12.6MB
+golang                                                                                   1.19.2                      dce494d5814b   32 hours ago     992MB
